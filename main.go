@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/boltdb/bolt"
-	"github.com/rboyer/goxample/inner"
+	"github.com/rboyer/goxample/v2/inner"
+	_ "go.etcd.io/bbolt"
 )
 
 func main() {

@@ -1,9 +1,9 @@
 package inner
 
 import (
-	_ "github.com/boltdb/bolt"
+	_ "go.etcd.io/bbolt"
 )
 
 func Version() int {
-	return 1
+	return 2
 }
